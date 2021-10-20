@@ -54,6 +54,25 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.ftitle {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.ititle {
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
 .btitle {
   color: #212121;
 }
@@ -102,4 +121,12 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.figcaption {
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
 }
