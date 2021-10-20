@@ -1,15 +1,78 @@
+:root {
+  --color: #2196f3;
+  --main-color: #757575;
+  --background-color: #2F303A;
+}
 body {
   background: #ffffff;
-  color: #757575;
-  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 
 .button {
   cursor: pointer;
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
 }
 .button:hover,
 .button:focus {
-  color: #2196f3;
+  background-color: var(--color);
+  color: #FFFFFF
+}
+
+.mainbutton {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color);
+}
+
+.ptitle{
+    color: #212121;
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.btitle {
+    color: #212121;
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+.bbackground {
+    background-color: #2F303A;
+}
+.section {
+    background-color: #e5e5e5;
+}
+
+.lowersection {
+    background-color: #F5F4FA;
+}
+
+.footer {
+    background-color: #212121;
 }
 
 .logo {
@@ -21,7 +84,21 @@ body {
   letter-spacing: 0.03em;
 }
 
-.link:hover,
-.link:focus {
-  color: #2196f3;
+.bigtitle {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.paragraph {
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
